@@ -1,15 +1,14 @@
-# Reverse an Array
-Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+## Feature Tasks
+Write the following methods for the Linked List class:
 
-## Whiteboard Process
-![](img.png))
+append
+arguments: new value
+adds a new node with the given value to the end of the list
 
-## Approach & Efficiency
-To reverse an array:
-* Pass the array to the reverse_order () function
-* Find the index of the last value in the array
-* Starting with the last value poisition, loop through the values in reverse order
-* Add each array value to the 'results' array
-* Return the new 'results' array
+insert before
+arguments: value, new value
+adds a new node with the given new value immediately before the first node that has the value specified
 
-O(n) where n - length of list 
+insert after
+arguments: value, new value
+adds a new node with the given new value immediately after the first node that has the value specified
