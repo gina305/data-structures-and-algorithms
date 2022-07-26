@@ -1,11 +1,15 @@
-# Singly Linked List
-<!-- Short summary or background information -->
+# Reverse an Array
+Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
 
-## Challenge
-<!-- Description of the challenge -->
+## Whiteboard Process
+![](img.png))
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+To reverse an array:
+* Pass the array to the reverse_order () function
+* Find the index of the last value in the array
+* Starting with the last value poisition, loop through the values in reverse order
+* Add each array value to the 'results' array
+* Return the new 'results' array
 
-## API
-<!-- Description of each method publicly available to your Linked List -->
+O(n) where n - length of list 
