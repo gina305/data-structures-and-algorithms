@@ -1,15 +1,17 @@
-# Reverse an Array
-Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+# Linked Lists
+* Write unit tests (following the Single-responsibility principle) for the following:
+  1. “Happy Path” - Expected outcome 
+  2. Expected failure 
+  3. Edge Case (if applicable/obvious)
+* Create a well-formatted README
+* Submit the assignment following these instructions
 
-## Whiteboard Process
-![](img.png))
+## Feature Tasks
+* Write a function called zip lists
+* Arguments: 2 linked lists
+* Return: New Linked List, zipped as noted below
+* Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
 
-## Approach & Efficiency
-To reverse an array:
-* Pass the array to the reverse_order () function
-* Find the index of the last value in the array
-* Starting with the last value poisition, loop through the values in reverse order
-* Add each array value to the 'results' array
-* Return the new 'results' array
+* Try and keep additional space down to O(1)
 
-O(n) where n - length of list 
+* You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
