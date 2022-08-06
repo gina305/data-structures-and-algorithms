@@ -1,6 +1,10 @@
 class BinaryTree:
     """
-    Put docstring here
+    Create a Binary Tree class
+    Define a method for each of the depth first traversals:
+    - pre order
+    - in order
+    -post order which returns an array of the values, ordered appropriately.
     """
 
     def __init__(self, data):
@@ -8,22 +12,22 @@ class BinaryTree:
         self.left = None
         self.right = None
 
-    def insert_left(self, new_data):
+    def insert_left(self, value):
         if self.left == None:
-            self.left = BinaryTree(new_data)
+            self.left = BinaryTree(value)
         else:
-            t = BinaryTree(new_data)
-            t.left = self.left
-            self.left = t
+            node_data = BinaryTree(value)
+            node_data.left = self.left
+            self.left = node_data
         return self.left
 
-    def insert_right(self, new_data):
+    def insert_right(self, value):
         if self.right == None:
-            self.right = BinaryTree(new_data)
+            self.right = BinaryTree(value)
         else:
-            t = BinaryTree(new_data)
-            t.right = self.right
-            self.right = t
+            node_data = BinaryTree(value)
+            node_data.right = self.right
+            self.right = node_data
         return self.right
 
     # def get_left(self):
