@@ -15,6 +15,7 @@ class BinaryTree:
             t = BinaryTree(new_data)
             t.left = self.left
             self.left = t
+        return self.left
 
     def insert_right(self, new_data):
         if self.right == None:
@@ -23,21 +24,22 @@ class BinaryTree:
             t = BinaryTree(new_data)
             t.right = self.right
             self.right = t
-
-    def get_left(self):
-        return self.left
-
-    def get_right(self):
         return self.right
 
-    def set_left(self, tree):
-        self.left = tree
+    # def get_left(self):
+    #     return self.left
 
-    def set_right(self, tree):
-        self.right = tree
+    # def get_right(self):
+    #     return self.right
 
-    def set_data(self, data):
-        self.data = data
+    # def set_left(self, tree):
+    #     self.left = tree
 
-    def get_data(self):
-        return self.data
+    # def set_right(self, tree):
+    #     self.right = tree
+
+    # def set_data(self, data):
+    #     self.data = data
+
+    # def get_data(self):
+    #     return self.data
