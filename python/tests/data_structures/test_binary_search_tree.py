@@ -1,12 +1,12 @@
 import pytest
 from data_structures.binary_search_tree import BinarySearchTree
 
-
+#@pytest.mark.skip("TODO")
 def test_exists():
     assert BinarySearchTree
 
 
-@pytest.mark.skip("TODO")
+#@pytest.mark.skip("TODO")
 def test_instantiate_empty():
     tree = BinarySearchTree()
     actual = tree.root
@@ -14,7 +14,7 @@ def test_instantiate_empty():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+#@pytest.mark.skip("TODO")
 def test_add_to_empty():
     tree = BinarySearchTree()
     tree.add("apples")

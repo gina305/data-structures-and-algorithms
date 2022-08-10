@@ -76,14 +76,12 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - **Run in watch mode** - `ptw` or `pytest-watch`
 
 ---------------
-# Code Challenge 3
-
 # Trees
 <!-- Short summary or background information -->
 
-## Challenge
+# Code Challenge: Class 15: Binary Tree and BST Implementation
 ### Node
-  * Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
+  * Create a Node class that has properties (attributes) for the value stored in the node, the left child node, and the right child node.
 ### Binary Tree
   * Create a Binary Tree class
     * Define a method for each of the depth first traversals:
