@@ -118,3 +118,5 @@ Ensure your tests are passing before you submit your solution.
 ## API
 <!-- Description of each method publicly available in each of your trees -->
 Submission Instructions
+
+Collaborator(s): Liesl White
