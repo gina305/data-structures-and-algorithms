@@ -2,6 +2,10 @@
 
 ## Language: `Python`
 
+# Feature Tasks
+
+Code CHallenge 6: Extend a Linked List to allow various insertion methods.
+
 ### Folder and Challenge Setup
 
 Each type of code challenge has slightly different instructions. Please refer to the notes and examples below for instructions for each DS&A assignment type.
