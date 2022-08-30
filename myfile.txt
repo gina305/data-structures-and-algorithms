@@ -1,0 +1,309 @@
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+{text} 
+,,[<div class="question_text">
+<p>
+                                            HOTSPOT -<br>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>NOTE: Each correct selection is worth one point.<br/>Hot Area:<br/><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_1.png"/></div><br/>
+</br></p>
+</div>],[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>],,[<div class="question_text">
+<p>
+                                            HOTSPOT -<br/>You plan to create an Azure virtual machine.<br/>You need to identify which storage service must be used to store the unmanaged data disks of the virtual machine.<br/>What should you identify? To answer, select the appropriate service in the answer area.<br/>Hot Area:<br/><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-73_1.jpg"/></div><br/>
+</p>
+</div>],[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>],,[<div class="question_text">
+<p>
+                                            Your company plans to move several servers to Azure.<br/>The company,,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="B">
+<p>
+                                            Answer :
+                                            <strong>B</strong>
+</p>
+<p>
+                                                Explanation:<br>Networks in Azure are known as virtual networks.  A virtual network can have multiple IP address spaces and multiple subnets.  Azure automatically routes traffic between different subnets within a virtual network.<br>The question states that FinServer must be on a separate network segment.  The only way to separate FinServer from the other servers in networking terms is to place the server in a different virtual network to the other servers.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="C">
+<p>
+                                            Answer :
+                                            <strong>C</strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Files is Microsoft's easy-to-use cloud file system. Azure file shares can be seamlessly used in Windows and Windows Server.<br>To use an Azure file share with Windows, you must either mount it, which means assigning it a drive letter or mount point path, or access it via its UNC path.<br/>Unlike other SMB shares you may have interacted with, such as those hosted on a Windows Server, Linux Samba server, or NAS device, Azure file shares do not currently support Kerberos authentication with your Active Directory (AD) or Azure Active Directory (AAD) identity, although this is a feature we are working on.<br/>Instead, you must access your Azure file share with the storage account key for the storage account containing your Azure file share. A storage account key is an administrator key for a storage account, including administrator permissions to all files and folders within the file share you're accessing, and for all file shares and other storage resources (blobs, queues, tables, etc) contained within your storage account.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-77_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-77_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide.<br>Azure Cosmos DB is a great way to store unstructured and JSON data. Combined with Azure Functions, Cosmos DB makes storing data quick and easy with much less code than required for storing data in a relational database.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/cosmos-db/introduction https://docs.microsoft.com/en-us/azure/azure-functions/functions-integrate-store-unstructured-data-cosmosdb?tabs=csharp<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="A">
+<p>
+                                            Answer :
+                                            <strong>A</strong>
+</p>
+<p>
+                                                Explanation:<br>The first thing you create in Azure is a subscription.  You can think of an Azure subscription as an ,,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="B">
+<p>
+                                            Answer :
+                                            <strong>B</strong>
+</p>
+<p>
+                                                Explanation:<br>Networks in Azure are known as virtual networks.  A virtual network can have multiple IP address spaces and multiple subnets.  Azure automatically routes traffic between different subnets within a virtual network.<br>The question states that FinServer must be on a separate network segment.  The only way to separate FinServer from the other servers in networking terms is to place the server in a different virtual network to the other servers.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="C">
+<p>
+                                            Answer :
+                                            <strong>C</strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Files is Microsoft's easy-to-use cloud file system. Azure file shares can be seamlessly used in Windows and Windows Server.<br>To use an Azure file share with Windows, you must either mount it, which means assigning it a drive letter or mount point path, or access it via its UNC path.<br/>Unlike other SMB shares you may have interacted with, such as those hosted on a Windows Server, Linux Samba server, or NAS device, Azure file shares do not currently support Kerberos authentication with your Active Directory (AD) or Azure Active Directory (AAD) identity, although this is a feature we are working on.<br/>Instead, you must access your Azure file share with the storage account key for the storage account containing your Azure file share. A storage account key is an administrator key for a storage account, including administrator permissions to all files and folders within the file share you're accessing, and for all file shares and other storage resources (blobs, queues, tables, etc) contained within your storage account.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-77_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-77_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide.<br>Azure Cosmos DB is a great way to store unstructured and JSON data. Combined with Azure Functions, Cosmos DB makes storing data quick and easy with much less code than required for storing data in a relational database.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/cosmos-db/introduction https://docs.microsoft.com/en-us/azure/azure-functions/functions-integrate-store-unstructured-data-cosmosdb?tabs=csharp<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="A">
+<p>
+                                            Answer :
+                                            <strong>A</strong>
+</p>
+<p>
+                                                Explanation:<br>The first thing you create in Azure is a subscription.  You can think of an Azure subscription as an ,,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="B">
+<p>
+                                            Answer :
+                                            <strong>B</strong>
+</p>
+<p>
+                                                Explanation:<br>Networks in Azure are known as virtual networks.  A virtual network can have multiple IP address spaces and multiple subnets.  Azure automatically routes traffic between different subnets within a virtual network.<br>The question states that FinServer must be on a separate network segment.  The only way to separate FinServer from the other servers in networking terms is to place the server in a different virtual network to the other servers.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="C">
+<p>
+                                            Answer :
+                                            <strong>C</strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Files is Microsoft's easy-to-use cloud file system. Azure file shares can be seamlessly used in Windows and Windows Server.<br>To use an Azure file share with Windows, you must either mount it, which means assigning it a drive letter or mount point path, or access it via its UNC path.<br/>Unlike other SMB shares you may have interacted with, such as those hosted on a Windows Server, Linux Samba server, or NAS device, Azure file shares do not currently support Kerberos authentication with your Active Directory (AD) or Azure Active Directory (AAD) identity, although this is a feature we are working on.<br/>Instead, you must access your Azure file share with the storage account key for the storage account containing your Azure file share. A storage account key is an administrator key for a storage account, including administrator permissions to all files and folders within the file share you're accessing, and for all file shares and other storage resources (blobs, queues, tables, etc) contained within your storage account.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-77_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-77_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide.<br>Azure Cosmos DB is a great way to store unstructured and JSON data. Combined with Azure Functions, Cosmos DB makes storing data quick and easy with much less code than required for storing data in a relational database.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/cosmos-db/introduction https://docs.microsoft.com/en-us/azure/azure-functions/functions-integrate-store-unstructured-data-cosmosdb?tabs=csharp<br/>
+</br></br></p>
+</div>],,,,[<div class="answer_block green accent-1" data-answer="A">
+<p>
+                                            Answer :
+                                            <strong>A</strong>
+</p>
+<p>
+                                                Explanation:<br>The first thing you create in Azure is a subscription.  You can think of an Azure subscription as an [<ul class="choices-list list-unstyled">
+</ul>],,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>][<ul class="choices-list list-unstyled">
+</ul>],,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>][<ul class="choices-list list-unstyled">
+<li data-choice="A">
+<strong>A. </strong>a resource group for FinServer and another resource group for all the other servers
+                                            </li>
+<li data-choice="B">
+<strong>B. </strong>a virtual network for FinServer and another virtual network for all the other servers
+                                            </li>
+<li data-choice="C">
+<strong>C. </strong>a VPN for FinServer and a virtual network gateway for each other server
+                                            </li>
+<li data-choice="D">
+<strong>D. </strong>one resource group for all the servers and a resource lock for FinServer
+                                            </li>
+</ul>],,,[<div class="answer_block green accent-1" data-answer="B">
+<p>
+                                            Answer :
+                                            <strong>B</strong>
+</p>
+<p>
+                                                Explanation:<br>Networks in Azure are known as virtual networks.  A virtual network can have multiple IP address spaces and multiple subnets.  Azure automatically routes traffic between different subnets within a virtual network.<br>The question states that FinServer must be on a separate network segment.  The only way to separate FinServer from the other servers in networking terms is to place the server in a different virtual network to the other servers.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm<br/>
+</br></br></p>
+</div>][<ul class="choices-list list-unstyled">
+<li data-choice="A">
+<strong>A. </strong>an Azure SQL database
+                                            </li>
+<li data-choice="B">
+<strong>B. </strong>a virtual machine data disk
+                                            </li>
+<li data-choice="C">
+<strong>C. </strong>a Files service in a storage account
+                                            </li>
+<li data-choice="D">
+<strong>D. </strong>a Blobs service in a storage account
+                                            </li>
+</ul>],,,[<div class="answer_block green accent-1" data-answer="C">
+<p>
+                                            Answer :
+                                            <strong>C</strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Files is Microsoft's easy-to-use cloud file system. Azure file shares can be seamlessly used in Windows and Windows Server.<br>To use an Azure file share with Windows, you must either mount it, which means assigning it a drive letter or mount point path, or access it via its UNC path.<br/>Unlike other SMB shares you may have interacted with, such as those hosted on a Windows Server, Linux Samba server, or NAS device, Azure file shares do not currently support Kerberos authentication with your Active Directory (AD) or Azure Active Directory (AAD) identity, although this is a feature we are working on.<br/>Instead, you must access your Azure file share with the storage account key for the storage account containing your Azure file share. A storage account key is an administrator key for a storage account, including administrator permissions to all files and folders within the file share you're accessing, and for all file shares and other storage resources (blobs, queues, tables, etc) contained within your storage account.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows<br/>
+</br></br></p>
+</div>][<ul class="choices-list list-unstyled">
+</ul>],,,[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-77_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-77_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide.<br>Azure Cosmos DB is a great way to store unstructured and JSON data. Combined with Azure Functions, Cosmos DB makes storing data quick and easy with much less code than required for storing data in a relational database.<br/>References:<br/>https://docs.microsoft.com/en-us/azure/cosmos-db/introduction https://docs.microsoft.com/en-us/azure/azure-functions/functions-integrate-store-unstructured-data-cosmosdb?tabs=csharp<br/>
+</br></br></p>
+</div>][<ul class="choices-list list-unstyled">
+<li data-choice="A">
+<strong>A. </strong>a subscription
+                                            </li>
+<li data-choice="B">
+<strong>B. </strong>a resource group
+                                            </li>
+<li data-choice="C">
+<strong>C. </strong>a virtual network
+                                            </li>
+<li data-choice="D">
+<strong>D. </strong>a management group
+                                            </li>
+</ul>],,,[<div class="answer_block green accent-1" data-answer="A">
+<p>
+                                            Answer :
+                                            <strong>A</strong>
+</p>
+<p>
+                                                Explanation:<br>The first thing you create in Azure is a subscription.  You can think of an Azure subscription as an ,,[<div class="question_text">
+<p>
+                                            HOTSPOT -<br>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>NOTE: Each correct selection is worth one point.<br/>Hot Area:<br/><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_1.png"/></div><br/>
+</br></p>
+</div>],[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-72_2.png]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-72_2.png"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br><br>Box 1: No -<br/>Not all Azure regions support availability zones.<br/><br/>Box 2: No -<br/>Availability zones can be used with many Azure services, not just VMs.<br/><br/>Box 3: No -<br/>Availability Zones are unique physical locations within a single Azure region.<br/>Reference:<br/>https://docs.microsoft.com/en-us/azure/availability-zones/az-region#azure-regions-with-availability-zones<br/>
+</br></br></p>
+</div>],,[<div class="question_text">
+<p>
+                                            HOTSPOT -<br/>You plan to create an Azure virtual machine.<br/>You need to identify which storage service must be used to store the unmanaged data disks of the virtual machine.<br/>What should you identify? To answer, select the appropriate service in the answer area.<br/>Hot Area:<br/><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-73_1.jpg"/></div><br/>
+</p>
+</div>],[<div class="answer_block green accent-1" data-answer="[Microsoft-AZ-900-1.0/xmlfile-74_1.jpg]">
+<p>
+                                            Answer :
+                                            <strong><div class="image_container"><img alt="" src="/static/img/exams/Microsoft-AZ-900-1.0/xmlfile-74_1.jpg"/></div></strong>
+</p>
+<p>
+                                                Explanation:<br>Azure containers are the backbone of the virtual disks platform for Azure IaaS. Both Azure OS and data disks are implemented as virtual disks where data is durably persisted in the Azure Storage platform and then delivered to the virtual machines for maximum performance. Azure Disks are persisted in Hyper-V VHD format and stored as a page blob in Azure Storage.<br>Reference:<br/>https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview<br/>
+</br></br></p>
+</div>],,[<div class="question_text">
+<p>
+                                            Your company plans to move several servers to Azure.<br/>The company
